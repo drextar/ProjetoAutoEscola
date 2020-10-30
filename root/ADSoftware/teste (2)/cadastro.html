@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho">
+    <title>ADSOFTWARE</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imgs/logo.png" alt="Logomarca da ADsoftware">
+        </div>
+        <nav class="nav-bar abs-pos">
+            <ul class="super-list">
+                <li class="super-item int-link">
+                    <a href="index.html">Home</a>
+           
+
+                <li class="super-item int-link">
+                    <a>Entrar</a>
+                    <ul class="sub-list">
+                        <li><a href="login.html">Login</a></li>
+                     
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="ghost"></section>
+<form name = "form1" method = "post">
+	<center>
+		<br>
+		
+<font size:16 color="black"> <h2>REALIZE O CADASTRO PARA UMA NOVA ETAPA DA SUA VIDA</h2> </font>
+		<br>
+CPF:
+<br>
+<input type="text" name="txt_usuario" size="20" required/>
+<br>
+<br>
+E-mail:
+<br>
+<input type="text" name="txt_email" size="20" required/>
+<br>
+<br>
+Senha: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Repetir Senha:
+<br>
+<input type="password" name="txt_senha" size="10"> &nbsp;&nbsp;&nbsp; <input type="password" name="txt_rsenha" size="10">
+<br>
+<br>
+<input type = "submit" name = "btn_incluir" value = "Cadastrar" onClick = "document.form1.action = 'criar.php'"> &nbsp;&nbsp;&nbsp;&nbsp; 
+<a href = "login.html"> Retornar ao Login </a>
+</center>
+ </form>
+
+</body>
+</html>

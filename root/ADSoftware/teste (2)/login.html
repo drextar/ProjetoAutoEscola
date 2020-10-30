@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho">
+    <title>ADSOFTWARE</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imgs/logo.png" alt="Logomarca da ADsoftware">
+        </div>
+        <nav class="nav-bar abs-pos">
+            <ul class="super-list">
+                <li class="super-item int-link">
+                    <a href="index.html">Home</a>
+             </ul>
+        </nav>
+    </header>
+    <section class="ghost"></section>
+<center>
+<form name = "form1" method = "post"> 
+<br>
+CPF:
+<br>
+<input type="text" name="txt_usuario" size="20" required>
+<br>
+<br>
+Senha:
+<br>
+<input type="password" size="20" name="txt_senha" size="10" required>
+<br>
+<br>
+Nível de acesso <br>
+    <select name = "op_acesso" >
+        <option value = "Aluno"> Aluno</option>
+        <option value = "Instrutor"> Instrutor</option>
+        <option value = "Recepcionista"> Recepcionista</option>
+    </select> <br><br>
+
+
+<input type = "submit" name="btn_entrar" value = "Entrar" onClick = "document.form1.action = 'logar.php'"> &nbsp;&nbsp;<br> 
+     <font size="-1" color="red">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+     *Nota: use seu CPF como <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; usuário e RG como senha*</font>
+</center>
+</form>
+
+</body>
+</html>
